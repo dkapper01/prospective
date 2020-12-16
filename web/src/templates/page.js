@@ -118,9 +118,11 @@ const Page = (props) => {
         bodyAttr={{
           class: "leading-normal tracking-normal text-white gradient",
         }}
-        gradient={gradient}
+        // gradient={gradient}
       />
-      <div className="pt-24">{content}</div>
+      {/* <div className="pt-24">{content}</div> */}
+      <div>{content}</div>
+
     </Layout>
   );
 };

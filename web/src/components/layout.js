@@ -50,6 +50,7 @@ class Layout extends React.Component {
           scrolled={scrolled}
           textWhite={textWhite}
         />
+
         <>{children}</>
         <Footer siteTitle={siteTitle} />
       </>

@@ -20,10 +20,10 @@ export default {
       name: 'illustration',
       type: 'illustration'
     },
-    {
-      name: 'cta',
-      type: 'cta'
-    }
+      {
+      name: 'ctaArray',
+      type: 'ctaArray'
+    },
   ],
   preview: {
     select: {
